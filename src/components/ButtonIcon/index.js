@@ -18,7 +18,7 @@ const ButtonIcon = () => {
             <View style={styles.icon}>
               <Icon  />
             </View>
-            <Text>title</Text>
+            <Text>AddSaldo</Text>
         </TouchableOpacity>
     )
 }
