@@ -10,7 +10,7 @@ const Home = () => {
             <Image source={logo} style={styles.logo}/>
             <View style={styles.hello}>
             <Text style={styles.selamat}>Selamat Datang, </Text>
-            <Text style={styles.username}>di laundry Mia</Text>
+            <Text style={styles.username}>di gofood Mia</Text>
             </View>
       </ImageBackground>
       <Saldo />

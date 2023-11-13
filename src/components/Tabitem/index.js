@@ -30,8 +30,8 @@ const styles = StyleSheet.create({
         alignItems: 'center'
     },
     text: (isFocused) => ({
-        fontSize: 13,
-        color: isFocused ? '#55CB95' : '#C8C8C8',
-        marginTop: 8
+        fontSize: 14,
+        color: isFocused ? '#FC2A43' : '#C8C8C8',
+        marginTop: 1
     })
 });
