@@ -1,14 +1,22 @@
-import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
+import { StyleSheet, View, ImageBackground, Dimensions } from 'react-native'
+import { Imagenasigoreng } from '../../assets'
 
-const Pesanan = () => {
+const Pesanan= () => {
   return (
-    <View>
-      <Text>Pesanan</Text>
+    <View style={styles.page}>
+      <ImageBackground 
+      source={Imagenasigoreng} style={styles.nasigoreng}>
+      </ImageBackground>
     </View>
   )
 }
 
 export default Pesanan
 
-const styles = StyleSheet.create({})
+const windowWidth = Dimensions.get('window').width;
+const windowHeight = Dimensions.get('window').height;
+
+const styles = StyleSheet.create({
+    
+});
