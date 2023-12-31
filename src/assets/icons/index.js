@@ -6,5 +6,4 @@ import IconPesanan from '../../assets/icons/pesanan.svg'
 import IconPesananActive from '../../assets/icons/pesananActive.svg'
 import IconAddSaldo from '../../assets/icons/addSaldo.svg'
 import IconGetPoint from '../../assets/icons/getPoint.svg'
-
-export { IconAkun, IconAkunActive, IconHome, IconHomeActive, IconPesanan, IconPesananActive, IconAddSaldo, IconGetPoint }
+export { IconAkun, IconAkunActive, IconHome, IconHomeActive, IconPesanan, IconPesananActive, IconAddSaldo,IconGetPoint}

@@ -1,14 +1,14 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 
-const Pesanan = () => {
+const Gap = ({height, width}) => {
   return (
-    <View>
-      <Text>Pesanan</Text>
+    <View style={{height : height, width : width}}>
+      <Text>Gap</Text>
     </View>
   )
 }
 
-export default Pesanan
+export default Gap
 
 const styles = StyleSheet.create({})

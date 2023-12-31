@@ -10,7 +10,7 @@ const Home = () => {
             <Image source={logo} style={styles.logo}/>
             <View style={styles.hello}>
             <Text style={styles.selamat}>Selamat Datang, </Text>
-            <Text style={styles.username}>di Drive Food</Text>
+            <Text style={styles.username}>Di Driver Food</Text>
             </View>
       </ImageBackground>
       <Saldo />
@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
       height: windowHeight *0.1,
     },
     hello: {
-      marginTop: windowHeight *0.025
+      marginTop: windowHeight *0.030
     },
     selamat: {
       fontSize: 24,

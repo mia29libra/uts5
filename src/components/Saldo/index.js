@@ -2,6 +2,7 @@ import React from 'react'
 import { StyleSheet, Text, View, Dimensions, } from 'react-native'
 import { WARNA_UTAMA } from '../../utils/constant';
 import ButtonIcon from '../ButtonIcon';
+import Gap from '../Gap';
 
 const Saldo = () => {
   return (
@@ -13,7 +14,7 @@ const Saldo = () => {
         </View>
         <View style={styles.text}>
           <Text style={styles.labelPoint}>Antar Point :</Text>
-          <Text style={styles.valuePoint}>300 Point</Text>
+          <Text style={styles.valuePoint}>300 Points</Text>
         </View>
       </View>
       <View style={styles.buttonAksi}>
@@ -21,8 +22,8 @@ const Saldo = () => {
           <ButtonIcon title="Get Point"/>
       </View>
     </View>
-  )
-}
+  );
+};
 
 export default Saldo;
 
@@ -71,7 +72,9 @@ const styles = StyleSheet.create({
     color: WARNA_UTAMA
   },
   buttonAksi: {
+    flex: 1,
     flexDirection: 'row',
-    marginLeft: 10
+    marginLeft: 10,
+    justifyContent: 'flex-end'
   }
 })
