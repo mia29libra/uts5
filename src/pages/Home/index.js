@@ -2,6 +2,7 @@ import React from 'react'
 import { StyleSheet, Text, Image, View, ImageBackground, Dimensions } from 'react-native'
 import { ImageHeader, logo } from '../../assets'
 import { Saldo} from '../../components'
+import ButtonIcon from '../../components/ButtonIcon'
 
 const Home = () => {
   return (
@@ -14,6 +15,17 @@ const Home = () => {
             </View>
       </ImageBackground>
       <Saldo />
+      <View style={styles.layanan}>
+          <Text style={styles.label}>Layanan Kami</Text>
+          <View style={styles.iconlayanan}>
+          <ButtonIcon title="Pulsa" type="layanan"/>
+          <ButtonIcon title="Makanan" type="layanan"/>
+          <ButtonIcon title="Tiket" type="layanan"/>
+          <ButtonIcon title="Tagihan" type="layanan"/>
+          <ButtonIcon title="Rute" type="layanan"/>
+          <ButtonIcon title="Diskon" type="layanan"/>
+          </View>
+      </View>
     </View>
   )
 }
@@ -47,5 +59,19 @@ const styles = StyleSheet.create({
     username: {
       fontSize: 22,
       fontFamily: 'TitilliumWeb-Bold'
-    }
+    },
+    layanan: {
+      paddingHorizontal: 30,
+      paddingTop: 15
+    },
+  label: {
+    fontSize: 18,
+    fontFamily: 'TitilliumWeb-Bold'
+  },
+  iconlayanan: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    marginTop: 10,
+    flexWrap: 'wrap'
+  },
 });

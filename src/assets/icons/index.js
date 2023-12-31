@@ -6,4 +6,11 @@ import IconPesanan from '../../assets/icons/pesanan.svg'
 import IconPesananActive from '../../assets/icons/pesananActive.svg'
 import IconAddSaldo from '../../assets/icons/addSaldo.svg'
 import IconGetPoint from '../../assets/icons/getPoint.svg'
-export { IconAkun, IconAkunActive, IconHome, IconHomeActive, IconPesanan, IconPesananActive, IconAddSaldo,IconGetPoint}
+import IconPulsa from '../../assets/icons/pulsa.svg'
+import IconMakanan from '../../assets/icons/makanan.svg'
+import IconTagihan from '../../assets/icons/tagihan.svg'
+import IconRute from '../../assets/icons/rute.svg'
+import IconDiskon from '../../assets/icons/diskon.svg'
+import IconTiket from '../../assets/icons/tiket.svg'
+
+export { IconAkun, IconAkunActive, IconHome, IconHomeActive, IconPesanan, IconPesananActive, IconAddSaldo,IconGetPoint, IconPulsa, IconMakanan, IconTagihan, IconRute, IconDiskon, IconTiket}
